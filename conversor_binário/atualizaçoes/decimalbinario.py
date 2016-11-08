@@ -44,8 +44,10 @@ def decimalbinário():
         print("para continuar digite 'sim', e para finalizar o programa, digite 'nao'")
 
         print('\n'*2)
-        continuar=str(input('deseja continuar ? ----> '))
+        continuar=input('deseja continuar ? ----> ')
         
     print('\n'*3)
-    
+    else:
+        import conversor_binário_completo from menu()
+        menu()
 decimalbinário()    
