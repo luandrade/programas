@@ -47,7 +47,7 @@ def decimalbinário():
         continuar=input('deseja continuar ? ----> ')
         
     print('\n'*3)
-    else:
-        import conversor_binário_completo from menu()
+    if continuar != 'sim':
+        import conversor_binário_completo
         menu()
 decimalbinário()    
